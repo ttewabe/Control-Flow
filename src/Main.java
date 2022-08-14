@@ -4,10 +4,10 @@ public class Main {
    if(temp > 30) {
        System.out.println("Its Hot Day");
        System.out.println("Drink Water");
-   } else if(temp > 20 && temp <= 30){
+   } else if(temp > 20 )
             System.out.println("Beautiful Day");
-        } else {
+        else
             System.out.println("Cold Day");
-        }
+
     }
 }
